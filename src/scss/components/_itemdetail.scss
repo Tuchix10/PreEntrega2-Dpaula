@@ -1,0 +1,22 @@
+.ItemDetail {
+    width: 30%;
+}
+
+.ItemDetailContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+    .ItemDetail {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .ItemDetail {
+        width: 80%;
+    }
+}

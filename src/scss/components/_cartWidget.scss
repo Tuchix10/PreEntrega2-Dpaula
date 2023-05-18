@@ -1,0 +1,32 @@
+.container-cart {
+    display: flex;
+    position: absolute;
+    right: 10px;
+    i{
+        margin-bottom: 25px;
+    }
+}
+.cart-count {
+    margin-top: 25px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 15px;
+    font-size: 15px;
+    background: linear-gradient(to right bottom, #c99383, #a16c5d);
+    color: #fff;
+    padding: 0 7px;
+    vertical-align: top;
+}
+.bi-cart::before {
+    font-size: 40px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 990px) {
+    .container-cart {
+        justify-content: center;
+        position: relative;
+        i {
+            margin-bottom: 0px;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.container-count {
+    display: flex;
+    flex-direction: column;
+}
+.btn-control-count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+}
+.btn-count {
+    background-color: #3d84a8;
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+}
+.btn-submit {
+    margin-top: 10px;
+    background: linear-gradient(to right bottom, #569ec2, #2f6783);
+    padding: 10px;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgb(241, 241, 241);
+}
+.btn-submit:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(61, 132, 168);
+}
+.btn-count:hover {
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgb(61, 132, 168);
+}
