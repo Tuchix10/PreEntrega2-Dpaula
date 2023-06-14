@@ -1,0 +1,54 @@
+.titulo-checkout {
+    grid-area: title;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.form-checkout {
+    display: flex;
+    justify-content: center;
+}
+.personal-info-form {
+    margin-top: 25px;
+    background: linear-gradient(to right bottom, #083e6a, #1d9fd0);
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "title title"
+    "data brief"
+    "button button";
+}
+.personal-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    grid-area: data;
+    gap: 10px;
+    label {
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        font-size: 20px;
+    }
+    i {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+}
+.cart-brief {
+    grid-area: brief;
+}
+.personal-info-button {
+    grid-area: button;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .form-checkout {
+        padding: 5px;
+    }
+    .personal-info-form {
+        padding: 5px;
+    }
+}
